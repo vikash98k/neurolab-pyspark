@@ -5,7 +5,7 @@ from pyspark.sql.types import StructType,StructField, StringType, IntegerType
 
 if __name__ == '__main__':
     #Creating spark session
-    spark = SparkSession.builder.master("spark://localhost:7077").appName("demo").getOrCreate()
+    spark = SparkSession.builder.appName("demo").getOrCreate()
 
     #Create list of data to prepare data frame
     person_list = [("Berry","","Allen",1,"M"),
