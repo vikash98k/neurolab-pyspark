@@ -1,0 +1,5 @@
+This is an example input file.
+It contains some sample text for word count.
+Each line will be processed independently.
+Word count program will count the occurrences of each word.
+This is the last line.
